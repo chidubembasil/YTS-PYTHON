@@ -37,16 +37,17 @@
 # print(bag)
 
 
-food = input("Enter a food name").lower()
+# food = input("Enter a food name").lower()
 
-if food == "rice":
-    print("Rice is available")
-elif food == "yam":
-    print("yam is available")
-elif food == "beans":
-    print("beans is available")
-elif food == "pizza":
-    print == ("pizza is available")       
-else:
+# if food == "rice":
+#     print("Rice is available")
+# elif food == "yam":
+#     print("yam is available")
+# elif food == "beans":
+#     print("beans is available")
+# elif food == "pizza":
+#     print == ("pizza is available")       
+# else:
 
-    print("Sorry that food is not available")        
+#     print("Sorry that food is not available")        
+
