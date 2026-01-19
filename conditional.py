@@ -55,7 +55,7 @@
 # person.pop("age") 
 # person["age"] =25
 # print(person)
-
+ 
 # person.update({"age": 35})
 # print(person)
 
@@ -170,38 +170,3 @@ def my_Cal(x , y):
      z = x / y
      print(z)
 my_Cal(firstNum , secondNum)
-=======
-# match Is_true:
-#     case True:
-#         print("The value is true!")
-#     case False:
-#         print("The value is false!")
-#     case _:
-#         print("The value is neither true nor false!")       
-
-
-# while loop
-
-i = 1000
-while i >= 1:
-    print(i)
-    i -= 7
-    
-# for loop
-# for i in range(1000, 0, -2):
-#     print(i)
-    
-    # dictionary
-# person = {
-#         "name": "John",
-#         "age": 30,
-#         "city": "New York"
-#     }
-    
-    # print the value of the key "name"
-    print(person["name"])
-    # print the value of the key "age"
-    print(person["age"])
-    # print the value of the key "city"
-    print(person["city"])
->>>>>>> a5f94f95a6edfef52463cad5a66e87d8742450b8
