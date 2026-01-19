@@ -10,7 +10,7 @@
 # bag = (1, "dog", True, 3.14)
 # print(bag)
 
-jdjhkdjhkf
+
 container = input("Enter an item: ")
 container_In = (container,)
 print(container_In)
