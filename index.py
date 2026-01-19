@@ -1,53 +1,21 @@
-# print("Simple Calculator")
+movieProducer = input("enter the name of the producer:")
+movieTitle = input("enter the title of the movie:")
 
-# num1 = float(input("Enter first number: "))
-# num2 = float(input("Enter second number: "))
+movies = {
+    "boys before flowers": "treasure in the palace",
+    "power ranger": "spider man",
+    "pj mask": "the man call God",
 
-# print("Addition:", num1 + num2)
-# print("Multiplication:", num1 * num2)
-# print("Division:", num1 / num2)
+}
+movies[movieProducer] = movieTitle
 
+if "boys before flowers" in movies:
+    print(movies["boys before flowers"])
 
-
-# num1 = float(input("Enter first number"))
-# op = input("Enter operator (+,-,*,/)")
-# num2 = float(input("Enter second number"))
-
-
-# if op=="+":
-#     result = num1+num2
-# elif op == "-":
-#     result = num1+num2
-# elif op == "*":
-#     result = num1+num2
-# elif op == "/":
-#     if num2 ==0:
-
-# tuples example
-
-# items = ("apple", "bannana", "cherry")
-# print(items)
-
-# print(items[0])
-# print(items[1])
-# print(items[2])
-
-# print(len(items))
-# bag = (1, "dog", True, 3.14)
-# print(bag)
+    for i in movies:
+        print(i)
 
 
-# food = input("Enter a food name").lower()
 
-# if food == "rice":
-#     print("Rice is available")
-# elif food == "yam":
-#     print("yam is available")
-# elif food == "beans":
-#     print("beans is available")
-# elif food == "pizza":
-#     print == ("pizza is available")       
-# else:
-
-#     print("Sorry that food is not available")        
-
+else:
+       print("The movieis not in the dictionary")  
