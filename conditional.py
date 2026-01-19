@@ -1,12 +1,22 @@
 <<<<<<< HEAD
 # # # is_true = True
 
+<<<<<<< HEAD
 # # # if is_true:
 # # #     print("the value is true")
 # # # elif not is_true:
 # # #     print("the value is false")
 # # # else:
 # # #     print("the value is true or false ")
+=======
+
+# while loop
+
+# i = 1000
+# while i >= 1:
+#     print(i)
+#     i -= 7
+>>>>>>> ebd208e9a90bd2fa5a3cf8462caa3dcd059ad465
     
 # # # match is_true:
 # # #     case True:
@@ -73,6 +83,7 @@
 #     "linda brown": "The Midnight Library",
 #     "michael johnson": "The Vanishing Half"
     
+<<<<<<< HEAD
 # }
 
 # books[bookAuthor] = bookName
@@ -170,3 +181,64 @@ def my_Cal(x , y):
      z = x / y
      print(z)
 my_Cal(firstNum , secondNum)
+=======
+    # print the value of the key "name"
+    # print(person["name"])
+    # print the value of the key "age"
+    # print(person["age"])
+    # print the value of the key "city"
+    # print(person["city"])
+
+
+#    function
+
+def my_function():
+    print("Hello world a function")
+
+def my_function(x, y):
+    return x + y
+print(my_function(2, 3))
+
+def my_function(x, y):
+    return x / y
+print(my_function(2, 3))
+
+def my_details(name, age, gender):
+    print(f"My name is {name}, I am {age}, and im a {gender}")
+    
+my_details("John", 17, "male")
+
+
+firstNum = int(input("Enter the first number: "))
+secondNum = int(input("Enter the second number: "))
+
+
+def my_cal(x, y):
+    z = x / y
+    print(z)
+my_cal(firstNum, secondNum)
+    
+    
+    
+    
+def my_function(x, y):
+    return x / y
+print(my_function(2, 3))
+
+def my_details(name, age, gender):
+    print(f"My name is {name}, I am {age}, and im a {gender}")
+    
+my_details("John", 17, "male")
+
+
+firstNum = int(input("Enter the first number: "))
+secondNum = int(input("Enter the second number: "))
+
+
+def my_cal(x, y):
+    z = x * y
+    print(z)
+    my_cal(firstNum, secondNum)
+    
+    
+>>>>>>> ebd208e9a90bd2fa5a3cf8462caa3dcd059ad465
